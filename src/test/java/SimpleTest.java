@@ -40,7 +40,7 @@ public class SimpleTest {
    @Test
     public void alwaysPass6()
     {
-        Assert.assertEquals(1, 2);
+        Assert.assertEquals(1, 1);
     }
 /* 	@Test  
    public void alwaysPass7()
