@@ -23,7 +23,7 @@ public class SimpleTest {
    @Test  
    public void alwaysPass3()
    {
-       Assert.assertEquals(1, 1);
+       Assert.assertEquals(1, 2);
    }
 
   @Test
@@ -34,7 +34,7 @@ public class SimpleTest {
    @Test
    public void alwaysFail5()
    {
-       Assert.assertEquals(1, 2) ;
+       Assert.assertEquals(1, 2);
    }
 
    @Test
@@ -42,7 +42,7 @@ public class SimpleTest {
     {
         Assert.assertEquals(1, 1);
     }
-/* 	@Test  
+/* 	@Test
    public void alwaysPass7()
    {
        Assert.assertEquals(1, 1);
