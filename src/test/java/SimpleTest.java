@@ -38,12 +38,12 @@ public class SimpleTest {
    }
 
 
-  /*  @Test
+  @Test
     public void alwaysPass6()
     {
         Assert.assertEquals(1, 1);
     }
-	@Test  
+  /*	@Test  
    public void alwaysPass7()
    {
        Assert.assertEquals(1, 1);
