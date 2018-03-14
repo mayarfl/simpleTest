@@ -5,7 +5,7 @@ import java.util.Random;
 
  
 /**  
- * Created by gadiel on 15/11/2016..                         
+ * Created by dshmaya on 15/11/2017                 
  */  
 public class SimpleTest {
 	
@@ -41,7 +41,7 @@ public class SimpleTest {
   @Test
     public void alwaysPass6()
     {
-        Assert.assertEquals(1, 1) ;
+        Assert.assertEquals(1, 2) ;
     }
   /*	@Test  
    public void alwaysPass7()
