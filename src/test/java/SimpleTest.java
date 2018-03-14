@@ -43,13 +43,13 @@ public class SimpleTest {
     {
         Assert.assertEquals(1, 1);
     }
-  /*	@Test  
+ 	@Test  
    public void alwaysPass7()
    {
        Assert.assertEquals(1, 1);
    }
 
-   @Test
+ /*   @Test
     public void alwaysPass8()
     {
         Assert.assertEquals(1, 1);
