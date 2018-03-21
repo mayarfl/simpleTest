@@ -48,6 +48,12 @@ public class SimpleTest {
    {
        Assert.assertEquals(1, 1);
    }
+	
+		@Test  
+   public void alwayfail117()
+   {
+       Assert.assertEquals(1, 2);
+   }
 
  /*   @Test
     public void alwaysPass8()
