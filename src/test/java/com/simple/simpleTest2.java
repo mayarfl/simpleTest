@@ -9,7 +9,7 @@ import java.util.Random;
 /**  
  * Created by dshmaya on 15/11/2017 ..01
  */  
-public class SimpleTest {
+public class SimpleTest2 {
 	
    @Test  
    public void alwaysPass1()
