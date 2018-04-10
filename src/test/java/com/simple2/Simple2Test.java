@@ -1,15 +1,16 @@
-package com.simple;
+package com.simple2;
 
 import junit.framework.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
+
 import java.util.Random;
 
- 
+
 /**  
  * Created by dshmaya on 15/11/2017 ..01
  */  
-public class SimpleTest2 {
+public class Simple2Test {
 	
    @Test  
    public void alwaysPass1()
@@ -46,13 +47,13 @@ public class SimpleTest2 {
         Assert.assertEquals(1, 1);
     }
  	@Test  
-   public void alwaysPass7()
+   public void alwaysfail171()
    {
-       Assert.assertEquals(1, 1);
+       Assert.assertEquals(1, 2);
    }
 	
 		@Test  
-   public void alwaysfail17()
+   public void alwaysfail172()
    {
        Assert.assertEquals(1, 2);
    }
