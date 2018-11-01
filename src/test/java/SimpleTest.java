@@ -46,6 +46,19 @@ public class SimpleTest {
  	@Test  
    public void alwaysPass7()
    {
+       Assert.assertEquals(1, 2);
+   }
+		@Test  
+   public void alwaysPass7f()
+   {
+       Assert.assertEquals(1, 2);
+   }
+	 public void alwaysPass8f()
+   {
+       Assert.assertEquals(1, 2);
+   }
+	 public void alwaysPass8p()
+   {
        Assert.assertEquals(1, 1);
    }
 
